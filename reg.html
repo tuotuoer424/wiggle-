@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wiggle 客户服务</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/publicReg.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reg.css"/>
+
+</head>
+<body>
+<!-- header -->
+	<div class="header">
+		<a href="#">
+			<img src="img/logo.png"/>
+		</a>
+	</div>
+<div class="reg">
+	<div class="regCenter">
+		<h1>注册</h1>
+		<p class="have">已经有账号了？<a href="login.html">登录</a></p>
+		<form action="php/reg.php" method="post" class="regForm">
+			<h4>在此输入电子邮箱地址</h4>
+			<p class="emailP"></p>
+			<input type="text" id="regEmail" name="useremail"/>
+			<h4>确认您的电子邮箱地址</h4>
+			<p class="emailP1"></p>
+			<input type="text" id="regEmail1"/>
+			<h4 class="chuangjian">创建密码</h4>			
+			<p class="must">密码必须由至少6个字符组成,其中包含英文字母和数字</p>
+			<p class="passwordP"></p>
+			<input type="password" id="regPassword"  name="userpassword"/><br/>
+			<input type="checkbox" id="checkbox"/><span class="possSpan">显示密码</span>
+			<h4>标题</h4>
+			<select name="usersex" id="regSex">
+				<option value="">先生</option>
+				<option value="">女士</option>
+				<option value="">小姐</option>
+			</select>
+			<h4>姓氏</h4>
+			<input type="text" id="regName" name="username"/>
+			<h4>名字</h4>
+			<input type="text" id="regName1" name="username1"/><br/>
+			<input type="checkbox" id="checkbox1"/><span class="emailSpan">通过电子邮件接收 Wiggle 最新优惠信息?</span>
+			<input type="submit" id="regSubmit"/>		
+		</form>
+
+	</div>
+</div>
+<!-- footer -->
+<div class="footer">
+	<a href="#">条例及条款</a>
+	<p>© 2018 Wiggle Ltd. 1000 Lakeside, Suite 310, Third Floor N E Wing, Portsmouth, Hampshire, </p>
+	<p>PO6 3EN, United Kingdom </p>
+	<p>公司号： 2667809 | 消费税号码： 884 2571 94</p>
+</div>
+<!-- help -->
+<a href="#">
+	<div class="help">
+		<img src="img/offline_en.png" alt=""/>
+	</div>
+</a>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/sliderjQuery.js"></script>
+<script type="text/javascript" src="js/reg.js"></script>
+
+<script type="text/javascript">
+    window.onload=function(){
+        var btn=document.getElementById("checkbox");
+        var pass=document.getElementById("regPassword");
+        var a = true;
+        btn.onclick=function(){
+        	if(a){
+        		pass.type="text";
+        		a=false;
+        	}else{
+        		pass.type="password";
+        		a=true;
+        	}
+        }
+    }
+</script>

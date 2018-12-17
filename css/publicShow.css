@@ -1,0 +1,448 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure,form{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+	
+}
+/*header*/
+.header{
+	width:100%;
+	background-image:url(../img/headerbg.png);
+	overflow: hidden;
+}
+.headerCenter{
+	width:1174px;
+	padding:18px 47px;
+	overflow: hidden;
+}
+.headerLeft{
+	width:50%;
+	float:left;
+}
+.headerRight{
+	width:50%;
+	float:left;
+	
+}
+.logoDiv{
+	width:16%;
+	float:left;
+}
+.searchDiv{
+	width:84%;
+	float:left;
+}
+.inp{
+	height:auto;
+	border-right:none;
+	position:relative;
+}
+
+.icon{
+	outline:none;
+	width:8%;
+	height:39px;	
+	border:none;
+	position:absolute;
+	box-sizing: border-box;
+	right:0px;
+	top:0px;
+	background-color:white;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	cursor: pointer;
+}
+.search{
+	outline:none;
+	border:none;
+	width:92%;
+	height:39px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	font-size:16px;
+	color:#898989;
+}
+.header_ul{
+	overflow: hidden;
+	text-align:right;
+}
+.header_ul li{
+	padding:13px;
+	margin-right:17px;
+	display: inline-block;
+}
+.header_ul li a{
+	color:#e7e7e7;
+	font-size:13px;	
+}
+.underline:hover{
+	text-decoration: underline;	
+}
+.carLi a{
+	padding:10px;
+	border:1px solid white;
+	color:#e7e7e7;
+	font-size:13px;
+	border-radius:3px;
+}
+.icon-gouwuche1{
+	color:white;
+	font-size:14px;
+}
+
+/*nav*/
+.nav{
+	width:100%;
+	background-color:#e7e7e7;
+}
+.navCenter{
+	width: 1174px;
+	margin:0 auto;
+	height:53px;
+	/*overflow: hidden;*/
+	position:relative;
+}
+.navUl{
+	height:53px;
+	overflow: hidden;
+}
+.navUl li a{
+	width:;
+	display: block;
+	box-sizing: border-box;
+	padding-bottom:10px;
+}
+.li1{
+	background-color:#00b267;
+}
+.li2{
+	background-color:#424242;
+}
+.navUl .li1 a{
+	color:white;
+}
+.navUl .li2 a{
+	color:#f8e720;
+}
+.navUl li{
+	float:left;
+	padding:16px 14px;
+	/*border-bottom:4px solid black;*/
+	box-sizing: border-box;
+}
+.navUl li a{
+	color:#222222;
+}
+/*navUl*/
+.navList{
+	width:100%;
+	height:740px;
+	position:absolute;
+	left:0;
+	top:54px;
+	z-index:3;
+	background-color:white;
+	display:none;
+}
+.imgUl{
+	position:absolute;
+	top:40px;
+	right:0px;
+}
+.navListCenter{
+	width:1130px;
+	height:643px;
+	padding:10px 34px;
+	margin:0 auto;
+	border-bottom:1px solid #ececec;
+}
+.erji{
+	width:282.5px;
+	height:643px;
+	position:relative;
+}
+.sanji{
+	border-left:1px solid #e8e8e8;
+	width:282.5px;
+	height:643px;
+	position:absolute;
+	top:0px;
+	left:282.5px;
+	display:none;
+}
+.siji{
+	border-left:1px solid #e8e8e8;
+	width:282.5px;
+	height:643px;
+	position:absolute;
+	top:0;
+	left:282.5px;
+	display:none;
+}
+.oneUl{
+	float:left;
+}
+.oneUl li{
+	width:282.5px;
+	height:35px;
+	/*background-color:#e7e7e7;*/
+	/*line-height: 35px;*/
+}
+.oneUl li span{
+	display: block;
+	width:282.5px;
+	height:35px;
+}
+.oneUl li a{
+	font-size:13px;
+	color:black;
+	display: block;
+}
+.oneUl .icon-dayuhao{
+	float:right;
+	font-size:15px;
+	font-weight: 600;
+}
+
+
+/*advertising*/
+
+.advertising{
+	background-color:#f7f7f7;
+}
+.advertisingCenter{
+	width:1174px;
+	margin:0 auto;
+	padding:15px 0;
+	overflow: hidden;
+}
+.advertisingSl{
+	width:25%;
+	float:left;	
+}
+.advertisingDiv{
+	float:left;
+	overflow: hidden;
+	padding:13px 0;
+	margin-left:10px;
+}
+.advertisingDiv span:first-child{
+	display: block;
+	color:black;
+	font-size:12px;
+	font-weight:600;
+	line-height: 13px;
+}
+.advertisingDiv span:last-child{
+	display: block;
+	color:black;
+	font-size:11px;
+	line-height: 12px;
+}
+.yuan{
+	float:left;
+	display: block;
+	width:45px;
+	height:45px;
+	border:2px solid #ff920b;
+	border-radius:50%;
+	line-height: 45px;
+	text-align:center;
+}
+.advertisingSl .yuan .icon-EMS{
+	font-size:35px;
+}
+.yuan .iconfont{
+	font-size:25px;
+	color:#ff920b;
+}
+/*back*/
+.back{
+	width:100%;
+	background-color:#e7e7e7;
+}
+.fixed{
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+.backCenter{
+	text-align:center;
+}
+a .backCenter i{
+	font-size:25px;
+	color:black;
+	vertical-align: middle;
+	font-weight:600;
+}
+a .backCenter span{
+	font-size:20px;
+	color:black;
+	vertical-align: middle;
+}
+/*footer*/
+.footer{
+	width:100%;
+	height:624px;
+	background-color:#3c3c3b;
+	padding:30px 0;
+}
+.footerCenter{
+	width:1174px;
+	height:628px;	
+	margin:0 auto;
+}
+.footerTop{
+	height:225px;
+}
+.footerTopLeft{
+	width:570px;
+	height:224px;
+	float:left;
+}
+.footerTopLeft h4{
+	font-size:17px;
+	color:white;
+	font-weight:100;
+}
+.footerTopLeft .searchDiv{
+	width:540px;
+	margin-top:14px;
+	margin-bottom:30px;
+}
+.footerTopLeft .icon{
+	width:107px;
+	border-left:1px solid black;
+	font-size:15px;
+}
+.iconn{
+	margin-left:6px;
+	margin-bottom:34px;
+}
+.iconn a:nth-child(2){
+	margin:0px 20px;
+}
+.cookieDiv a{
+	font-size:13px;
+	color:white;
+}
+.footerTopLeft p{
+	font-size:13px;
+	color:white;
+	font-weight:600;
+	margin-top:16px;
+}
+.footerTopUl{
+	float:left;
+}
+.footerTopUl h4{
+	font-size:16px;
+	color:white;
+	line-height:16px;
+	margin-bottom:11px;
+}
+.footerTopUl a{
+	font-size:13px;
+	color:white;
+	line-height:25px;
+}
+.footerTopUl_1{
+	margin-right:186px;
+}
+.footerBottom{
+	margin-top:56px;
+}
+.footerBottom h3{
+	font-size:20px;
+	color:white;
+	line-height: 20px;
+	padding-bottom:15px;
+	border-bottom:2px solid white;
+	padding-left:5px;
+}
+.footerBottomUl{
+	float:left;
+	width:25%;
+}
+.footerBottomUl li{
+	margin-top:28px;	
+}
+.footerBottomUl a{
+	font-size:12px;
+	color:#e7e7e7;
+	line-height: 12px;
+	
+}
+
+/*help*/
+.help{
+	position:fixed;
+	bottom:0;
+	right:40px;
+}
+/*ncvcn*/
+.ncvcn{
+	width:100%;
+	padding:25px 62px;
+	box-sizing: border-box;
+}
+.ncvcnCenter{
+	background-image:url(../img/headerbg.png);
+	padding:23px 0;
+}
+.ncvcnCenter_1{
+	overflow: hidden;
+	width:52%;
+	margin:0 auto;
+}
+.ncvcnCenterLeft{
+	overflow: hidden;
+	float:left;
+	margin-right:50px;
+}
+.ncvcnCenterLeft h3{
+	font-size:25px;
+	color:white;
+	font-weight:600;
+	float:left;
+}
+.ncvcnCenterLeft p{
+	font-size:24px;
+	color:white;
+	float:left;
+}
+.only a{
+	display: block;
+}
+.only a span:first-child{
+	color:white;
+	font-size:13px;
+}
+.only a span:last-child{
+	color:white;
+	font-size:12px;
+}
+.ncvcnCenterRight{
+	width:140px;
+	height:56px;
+	background-color:white;
+	color:#3c3c3b;
+	font-weight:600;
+	text-align:center;
+	line-height: 56px;
+	float:left;
+	transform:skew(-20deg);
+}

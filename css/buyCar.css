@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure,form{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+	
+}
+/*flashSale*/
+.flashSale{
+	width:100%;
+	height:40px;
+	background-color:#de3325;
+	text-align: center;
+	line-height: 40px;
+	z-index:200;
+}
+.flashSaleFixed{
+	position:fixed;
+	top:0;
+	left:0;
+}
+.flashSaleCenter span:nth-child(1){
+	font-size:17px;
+	color:white;
+	font-weight: 600;
+}
+.flashSaleCenter span:nth-child(2){
+	font-size:18px;
+	color:white;
+}
+.flashSaleCenter span:nth-child(3){
+	font-size:17px;
+	color:white;
+	font-weight: 600;
+}
+.flashSaleCenter span:nth-child(4){
+	font-size:17px;
+	color:white;
+	font-weight: 600;
+	margin-left:30px;
+}
+
+
+/*-----content---------------*/
+.content{
+	width:100%;
+}
+.contentCenter{
+	width:1140px;
+	margin:0 auto;
+	padding-top:10px;
+}
+.daxingshangpin{
+	width:1116px;
+	border:1px solid #faf076;
+	background-color:#ffffcc;
+	padding:10px 12px;
+	margin-bottom:48px;
+}
+.daxingshangpin p{
+	display: inline-block;
+	color:#666676;
+	font-size:15px;
+	vertical-align: middle;
+	
+}
+.daxingshangpin p span{
+	font-size:12px;
+}
+.daxingshangpin img{
+	vertical-align: middle;
+}
+.payMoney{
+	overflow: hidden;
+	margin-top:45px;
+	margin-bottom:36px;
+}
+.payMoney a:first-child{
+	width:98px;
+	height:34px;
+	float:left;
+	background-color:#e9e9e9;
+	font-size:16px;
+	color:black;
+	line-height: 34px;
+	text-align: center;
+}
+.payMoney a:last-child{
+	width:98px;
+	height:34px;
+	float:right;
+	background-color:#ff920b;
+	font-size:16px;
+	color:white;
+	line-height: 34px;
+	text-align: center;
+}
+.carCar{
+	border-top:1px dashed #cccccc;
+	border-bottom:1px dashed #cccccc;
+}
+.goodsHead{
+	font-size:12px;
+	color:#666666;
+	line-height:36px;
+}
+.goodsHead span:nth-child(2){
+	margin-left:655px;
+	margin-right:127px;
+}
+.goodsHead span:nth-child(3){
+	margin-right:143px;
+}
+.goodsBox{
+	overflow: hidden;
+	padding:10px 0;
+	border-bottom:1px dashed #cccccc;
+	margin-bottom:20px;
+}
+.imgBox{
+	float:left;
+	width:177px;
+	height:76px;
+	text-align:center;
+}
+.goodsImg{
+	width:73px;
+	height:73px;
+}
+.sdescribeBox{
+	float:left;
+}
+.goodsId{
+	line-height:34px;
+}
+.removeGoods{
+	color:#a30000;
+	font-size:13px;
+	cursor: pointer;
+}
+.goodsType{
+	color:#3d5793;
+}
+.numBox{
+	float:left;
+	margin-left:267px;
+}
+.reduction,.add{
+	width:20px;
+	height:20px;
+	outline: out;
+	border:1px solid #9f9f9f;
+	font-weight:600;
+	cursor: pointer;
+}
+.count{
+	width:38px;
+	height:23px;
+	background-color:white;
+	text-align: center;
+	margin:0 5px;
+	border:1px solid gainsboro;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 23px;
+}
+.priceP{
+	float:left;
+	color:black;
+	font-size:12px;
+	margin-left:95px;
+}
+.totalP{
+	float:left;
+	color:black;
+	font-size:12px;
+	margin-left:125px;
+}
+.emsBox{
+	overflow: hidden;
+}
+.emsBox_left{
+	width:565px;
+	height:190px;
+	float:left;
+}
+.emsWhere{
+	padding:12px 10px;
+	background-color:#f0f0f0;
+	border:1px solid #cccccc;
+}
+.emsWhere h2{
+	font-weight:100;
+	margin-bottom:15px;
+}
+.diqu{
+	margin-left:20px;
+	width:228px;
+	height:26px;
+}
+.emsWhere h4{
+	margin-top:15px;
+	margin-bottom:6px;
+}
+.emsBox_right{
+	width:562px;
+	float:right;
+}
+.youhui{
+	width:500px;
+	padding:28px 30px;
+	background-color:#f0f0f0;
+	border:1px solid #cccccc;
+	margin-bottom:15px;
+}
+.youhuiText{
+	width:162px;
+	height:28px;
+	vertical-align: middle;
+	margin-left:150px;
+}
+.shuru{
+	width:98px;
+	height:34px;
+	background-color:#ff920b;
+	color:white;
+	font-size:16px;
+	border:none;
+	text-align:center;
+	cursor: pointer;
+	vertical-align: middle;
+	
+}
+.yunfei{
+	color:#666666;
+}
+.yunfei span:first-child{
+	margin-right:450px;
+}
+.hejiBox{
+	margin-top:20px;
+}
+.hejiBox h3{
+	display: inline-block;
+}
+.hejiBox h3:first-child{
+	margin-right:350px;
+}
+.bottonBox{
+	overflow: hidden;
+}
+.bottonBox a:first-child{
+	float:left;
+	text-align:center;
+	width:;
+	height:;
+}
